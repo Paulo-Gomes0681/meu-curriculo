@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Roberto Gomes de Araújo Júnior - Currículo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+        }
+
+        .contact-info div {
+            margin: 5px 0;
+        }
+
+        nav {
+            background: #34495e;
+            padding: 0;
+        }
+
+        .nav-tabs {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .nav-tab:hover {
+            background: #2c3e50;
+        }
+
+        .nav-tab.active {
+            background: #1abc9c;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #1abc9c;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 3px solid #1abc9c;
+        }
+
+        .experience-title, .education-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .company, .institution {
+            color: #1abc9c;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .skill-category h3 {
+            color: #1abc9c;
+            margin-bottom: 10px;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: #ecf0f1;
+            padding: 5px 10px;
+            margin: 3px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-tabs {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Paulo Roberto Gomes de Araújo Júnior</h1>
+            <div class="subtitle">Gerente Administrativo | Estudante de Ciência de Dados</div>
+            <div class="contact-info">
+                <div>📧 paulo-gomes123@hotmail.com</div>
+                <div>📱 (81) 99820-6330</div>
+                <div>📍 Rua Calceolária 85, Jardim Atlântico, Olinda-PE CEP: 53060-150</div>
+                <div>🎂 28/06/1981</div>
+                <div>💼 linkedin.com/in/paulo-gomes-005674b7</div>
+            </div>
+        </header>
+
+        <nav>
+            <div class="nav-tabs">
+                <button class="nav-tab active" onclick="switchTab('experiencia')">Experiência</button>
+                <button class="nav-tab" onclick="switchTab('educacao')">Educação</button>
+                <button class="nav-tab" onclick="switchTab('habilidades')">Habilidades</button>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div id="experiencia" class="tab-content active">
+                <h2>Experiência Profissional</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-title">Gerente Administrativo</div>
+                    <div class="company">SolarMix Energias Renováveis - Tempo integral</div>
+                    <div class="date">Set 2017 - o momento • 8 anos</div>
+                    <div>Olinda, Pernambuco, Brasil • Presencial</div>
+                    <p><strong>Competências:</strong> Tecnologias fotovoltaicas • Manipulação de dados • Dashboards • Banco de dados • 
+                    Resolução de problemas • Solução de problemas técnicos • SQL • Análise técnica • Comércio • Preparação de 
+                    propostas • Suporte técnico • Fechamentos • Demonstração de produtos • Banco de dados SQL • Energia 
+                    renovável • Relatórios e análises • Capacidade de organização • Microsoft Office • Liderança • Trabalho em 
+                    equipe • Microsoft Word • Microsoft Power BI • Python • Habilidades analíticas</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-title">GERENTE ADM</div>
+                    <div class="company">Aço Imperial</div>
+                    <div class="date">Fev 2014 - Jul 2017 • 3 anos 6 meses</div>
+                    <div>Olinda-PE</div>
+                    <p>Administração total de empresa, Financeiro e Fiscal</p>
+                    <p><strong>Competências:</strong> Resolução de problemas • Comércio • Preparação de propostas • Capacidade de organização • 
+                    Microsoft Office • Liderança • Trabalho em equipe • Microsoft Word • Habilidades analíticas</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-title">Comprador</div>
+                    <div class="company">Interflux Válvulas</div>
+                    <div class="date">Mai 2013 - Jan 2014 • 9 meses</div>
+                    <div>Recife e Região, Brasil</div>
+                    <p><strong>Competências:</strong> Microsoft Word</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-title">Vendas</div>
+                    <div class="company">ACI - Acessórios e Componentes Industriais</div>
+                    <div class="date">Jul 2011 - Mai 2013 • 1 ano 9 meses</div>
+                    <div>Recife e Região, Brasil</div>
+                    <p><strong>Competências:</strong> Microsoft Word • Atendimento ao cliente</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-title">Supervisor de logística</div>
+                    <div class="company">Neolider Aço LTDA</div>
+                    <div class="date">Jun 2008 - Jul 2011 • 3 anos 2 meses</div>
+                    <div>Recife e Região, Brasil</div>
+                    <p><strong>Competências:</strong> Capacidade de organização • Liderança • Trabalho em equipe • Microsoft Word</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-title">Supervisor</div>
+                    <div class="company">Kinoplex - Tempo integral</div>
+                    <div class="date">Mai 2004 - Dez 2006 • 2 anos 8 meses</div>
+                    <div>Recife e Região, Brasil • Presencial</div>
+                    <p><strong>Competências:</strong> Capacidade de organização • Liderança • Trabalho em equipe • Atendimento ao cliente</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-title">Atendimento ao cliente</div>
+                    <div class="company">C&A Brasil - Temporário</div>
+                    <div class="date">Nov 2002 - Dez 2002 • 2 meses</div>
+                    <div>Recife, Pernambuco, Brasil • Presencial</div>
+                    <p><strong>Competências:</strong> Capacidade de organização • Atendimento ao cliente</p>
+                </div>
+            </div>
+
+            <div id="educacao" class="tab-content">
+                <h2>Formação Acadêmica</h2>
+                
+                <div class="education-item">
+                    <div class="education-title">Descomplica Faculdade Digital</div>
+                    <div class="institution">Curso Superior de Tecnologia (CST), Ciência de dados</div>
+                    <div class="date">Abr 2024</div>
+                    <div>Análise de informações</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Instituto Brasileiro de Gestão e Marketing - IBGM</div>
+                    <div class="institution">Graduação, Gestão da Cadeia de Suprimentos e Logística</div>
+                    <div class="date">Ago 2008 - Ago 2010</div>
+                </div>
+
+                <h2>Licenças e Certificados</h2>
+
+                <div class="education-item">
+                    <div class="education-title">Power BI Impressionador</div>
+                    <div class="institution">Hashtag Treinamentos</div>
+                    <div class="date">Verificação emitida em Jul 2023</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">CLOUD COMPUTING</div>
+                    <div class="institution">Descomplica Faculdade Digital</div>
+                    <div class="date">Verificação emitida em Jun 2025</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">MODELLING DATA DEVELOPER</div>
+                    <div class="institution">Descomplica Faculdade Digital</div>
+                    <div class="date">Verificação emitida em Mar 2025</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Curso de Desenvolvimento de aplicativos com Glide Apps</div>
+                    <div class="institution">Udemy Brasil</div>
+                    <div class="date">Verificação emitida em Fev 2025</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">ChatGPT Engenharia de Prompt - Curso Completo</div>
+                    <div class="institution">Udemy Brasil</div>
+                    <div class="date">Verificação emitida em Jan 2025</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Developer Thinking</div>
+                    <div class="institution">Descomplica Faculdade Digital</div>
+                    <div class="date">Verificação emitida em Dez 2024</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Math Computing Basics</div>
+                    <div class="institution">Descomplica Faculdade Digital</div>
+                    <div class="date">Verificação emitida em Dez 2024</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Programming and Communication</div>
+                    <div class="institution">Descomplica Faculdade Digital</div>
+                    <div class="date">Verificação emitida em Dez 2024</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Inteligência Artificial Impressionador</div>
+                    <div class="institution">Hashtag Treinamentos</div>
+                    <div class="date">Verificação emitida em Nov 2024</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Dominando Postman (2023): Testando e Automatizando APIs</div>
+                    <div class="institution">Skillers Club</div>
+                    <div class="date">Verificação emitida em Jun 2024</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Conclusão de Curso: Postman</div>
+                    <div class="institution">Postman Student Expert</div>
+                    <div class="date">Conclusão de Curso: Postman</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Banco de Dados SQL do Zero ao Avançado + Projetos Reais 2024</div>
+                    <div class="institution">Udemy Brasil</div>
+                    <div class="date">Verificação emitida em Abr 2024</div>
+                    <p><strong>Competências:</strong> Banco de dados SQL • Análise de dados estratégicos • Microsoft Power BI • Banco de dados • análise de dados • MySQL</p>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-title">Power BI Completo - Do Básico ao Avançado</div>
+                    <div class="institution">Hashtag Treinamentos</div>
+                    <div class="date">Verificação emitida em Abr 2024</div>
+                    <p><strong>Competências:</strong> Ciência de dados • Análise de dados</p>
+                </div>
+            </div>
+
+            <div id="habilidades" class="tab-content">
+                <h2>Competências</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Tecnologias e Dados</h3>
+                        <span class="skill-tag">Tecnologias fotovoltaicas</span>
+                        <span class="skill-tag">Manipulação de dados</span>
+                        <span class="skill-tag">Dashboards</span>
+                        <span class="skill-tag">Banco de dados</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Banco de dados SQL</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Microsoft Power BI</span>
+                        <span class="skill-tag">Análise de dados</span>
+                        <span class="skill-tag">Análise de dados estratégicos</span>
+                        <span class="skill-tag">Ciência de dados</span>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Gestão e Administração</h3>
+                        <span class="skill-tag">Administração total de empresa</span>
+                        <span class="skill-tag">Financeiro e Fiscal</span>
+                        <span class="skill-tag">Resolução de problemas</span>
+                        <span class="skill-tag">Solução de problemas técnicos</span>
+                        <span class="skill-tag">Análise técnica</span>
+                        <span class="skill-tag">Capacidade de organização</span>
+                        <span class="skill-tag">Liderança</span>
+                        <span class="skill-tag">Trabalho em equipe</span>
+                        <span class="skill-tag">Habilidades analíticas</span>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Comercial e Atendimento</h3>
+                        <span class="skill-tag">Comércio</span>
+                        <span class="skill-tag">Preparação de propostas</span>
+                        <span class="skill-tag">Suporte técnico</span>
+                        <span class="skill-tag">Fechamentos</span>
+                        <span class="skill-tag">Demonstração de produtos</span>
+                        <span class="skill-tag">Atendimento ao cliente</span>
+                        <span class="skill-tag">Vendas</span>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Ferramentas</h3>
+                        <span class="skill-tag">Microsoft Office</span>
+                        <span class="skill-tag">Microsoft Word</span>
+                        <span class="skill-tag">Relatórios e análises</span>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Energia e Logística</h3>
+                        <span class="skill-tag">Energia renovável</span>
+                        <span class="skill-tag">Supervisor de logística</span>
+                        <span class="skill-tag">Gestão da Cadeia de Suprimentos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tabName) {
+            // Remove active class from all tabs and contents
+            const tabs = document.querySelectorAll('.nav-tab');
+            const contents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach(tab => tab.classList.remove('active'));
+            contents.forEach(content => content.classList.remove('active'));
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+            
+            // Show corresponding content
+            document.getElementById(tabName).classList.add('active');
+        }
+    </script>
+</body>
+</html>
