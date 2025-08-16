@@ -5,7 +5,7 @@ Este repositório hospeda meu currículo profissional interativo, desenvolvido e
 
 ## 🔗 Acesso
 Você pode visualizar meu currículo online através do link:
-- **[https://seuusername.github.io](https://seuusername.github.io)**
+- **https://paulo-gomes0681.github.io/meu-curriculo/**
 
 ## 👨‍💼 Informações Profissionais
 - **Cargo Atual:** Gerente Administrativo na SolarMix Energias Renováveis
