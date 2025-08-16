@@ -43,7 +43,7 @@ Você pode visualizar meu currículo online através do link:
 ## 🚀 Como Executar Localmente
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusername/seuusername.github.io.git
+   git clone https://github.com/Paulo-Gomes0681/Paulo-Gomes0681.github.io.git
    ```
 2. Abra o arquivo `index.html` em seu navegador
 
